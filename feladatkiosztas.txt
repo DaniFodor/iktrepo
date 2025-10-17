@@ -2,8 +2,9 @@ Feladatkiosztás:
 
 Dani:
 - Elsősegély
+
+Közös:
 - szabályok
 
 Buluzs:
 - Táblák
-- Táblákkal
