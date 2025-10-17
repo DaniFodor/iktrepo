@@ -1,0 +1,31 @@
+body{
+    background-image: url("windows.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 120%;
+}
+.row{
+    margin-top: 5%;
+}
+
+.tx{
+    border: 5px solid rgba(67, 37, 128, 0.514);
+    background-color: rgba(71, 61, 90, 0.568);
+    border-style: outset;
+    color: wheat;
+    border-radius: 10px;
+    padding: 3%;
+    text-align: center;
+}
+.fr{
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 4rem;
+}
+.oldal31234123{
+    
+    background-repeat: no-repeat;
+}
+.tx:hover{
+    background-color: rgba(71, 61, 90, 0.185);
+}
