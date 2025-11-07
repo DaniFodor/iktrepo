@@ -45,12 +45,16 @@
         margin: 0 0 0 15px;
         color: #9aa6b2; 
     }
-
-    nav {
-        margin-top: 15px;
+    nav a {
+        background-color: #2c2c2c;
+        color: #9aa6b2;
+        text-decoration: none;
+        padding: 6px 10px;
+        border-radius: 10px;
+        margin-right: 8px;
     }
 
-    nav a {
+    nav a.fgv {
         background-color: #0b1220;
         color: #9aa6b2;
         text-decoration: none;
@@ -60,6 +64,11 @@
     }
 
     nav a:hover {
+        background-color: #0ea5a58a;
+        color: #081827b6;
+    }
+
+    nav a.fgv:hover {
         background-color: #0ea5a4;
         color: #081827;
     }
@@ -123,6 +132,7 @@
         padding: 5px;
         margin: 0;
     }
+
   </style>
 </head>
 <body>
@@ -140,11 +150,12 @@
     </header>
 
     <nav aria-label="Oldalbeli linkek">
-      <a href="#elso">Miért fontos?</a>
-      <a href="#masodik">Teendők</a>
-      <a href="#harmadik">Életmentő beavatkozások</a>
+      <a href="index_main.html" id="főv">Fő oldal</a>
+      <a href="#elso" class="fgv">Miért fontos?</a>
+      <a href="#masodik" class="fgv">Teendők</a>
+      <a href="#harmadik" class="fgv">Életmentő beavatkozások</a>
      
-      <a href="#otodik">Hasznos számok</a>
+      <a href="#otodik" class="fgv">Hasznos számok</a>
     </nav>
 
     <main>
