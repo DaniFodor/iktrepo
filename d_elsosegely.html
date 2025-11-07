@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>KRESZ — Elsősegély röviden</title>
+  <style>
+    body {
+        margin: 0;
+        background-color: #081827; 
+        color: white;              
+        font-family: Arial, sans-serif;
+    }
+
+    .oldal {
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 20px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        background-color: #0ea5a4; 
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    h1 {
+        margin: 0 0 5px 15px;
+        font-size: 22px;
+    }
+
+    .dasdwa2 {
+        margin: 0 0 0 15px;
+        color: #9aa6b2; 
+    }
+
+    nav {
+        margin-top: 15px;
+    }
+
+    nav a {
+        background-color: #0b1220;
+        color: #9aa6b2;
+        text-decoration: none;
+        padding: 6px 10px;
+        border-radius: 10px;
+        margin-right: 8px;
+    }
+
+    nav a:hover {
+        background-color: #0ea5a4;
+        color: #081827;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+
+    .kockasd {
+        background-color: #0b1220;
+        padding: 14px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+    }
+
+    .utasitas {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 10px;
+    }
+
+    .lista {
+        width: 30px;
+        height: 30px;
+        background-color: #0ea5a4;
+        color: #081827;
+        border-radius: 6px;
+        text-align: center;
+        line-height: 30px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+
+    .actions {
+        margin-top: 10px;
+    }
+
+    .btn {
+        background-color: #0ea5a4;
+        color: #081827;
+        padding: 8px 12px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn.ghost {
+        background-color: transparent;
+        border: 1px solid #9aa6b2;
+        color: #9aa6b2;
+    }
+
+    footer {
+        margin-top: 15px;
+        color: #9aa6b2;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    h3{
+        padding: 5px;
+        margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="oldal">
+    <header>
+      <div class="logo">🚑</div>
+      <div>
+        <h1>KRESZ — Elsősegély röviden</h1>
+        <p class="dasdwa2">A weblap jogát fentartja: mi</p>
+      </div>
+    </header>
+
+    <nav aria-label="Oldalbeli linkek">
+      <a href="#elso">Miért fontos?</a>
+      <a href="#masodik">Teendők</a>
+      <a href="#harmadik">Életmentő beavatkozások</a>
+     
+      <a href="#otodik">Hasznos számok</a>
+    </nav>
+
+    <main>
+      <section id="elso" class="kockasd">
+        <h2>Miért fontos az elsősegély?</h2>
+        <p>A közlekedési baleseteknél a gyors és helyes beavatkozás életeket menthet. A KRESZ vizsgán és a való életben is az alapok elsajátítása szükséges: helyszínbiztosítás, segélyhívás, és a legfontosabb életmentő technikák.</p>
+      </section>
+
+      <section id="masodik" class="kockasd">
+        <h2>Teendők baleset esetén</h2>
+        <div>
+          <div>
+            <div class="utasitas"><div class="lista">1</div><div><h3>Biztonság</h3><p >Kapcsold le vagy állítsd le a járművet, kapcsold be az elakadásjelzőt, és vegyél fel láthatósági mellényt.</p></div></div>
+            <div class="utasitas"><div class="lista">2</div><div><h3>Helyszínbiztosítás</h3><p >Helyezd ki az elakadásjelző háromszöget a megfelelő távolságra.</p></div></div>
+            <div class="utasitas"><div class="lista">3</div><div><h3>Állapotfelmérés</h3><p>Ellenőrizd: van-e eszmélet, légzés, súlyos vérzés.</p></div></div>
+          </div>
+          <div>
+            <div class="utasitas"><div class="lista">4</div><div><h3>Segélyhívás</h3><p>Hívj 112-t (vagy az országos mentőszámot). Mondd: ki vagy, hol vagy, mi történt, hány sérült, állapotuk.</p></div></div>
+            <div class="utasitas"><div class="lista">5</div><div><h3>Elsősegély</h3><p>Enyhén sérültek ellátása, súlyos esetben csak életmentő beavatkozást végezz, amíg a szaksegítség megérkezik.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="harmadik" class="kockasd">
+        <h2>Alapvető életmentő beavatkozások</h2>
+        <ul class="esrzvtsdfvg">
+          <li><h3>Eszméletlenség:</h3> légútbiztosítás → ha nem lélegzik: kezdj újraélesztést; ha lélegzik: stabil oldalfektetés.</li>
+          <li><h3>Újraélesztés (BLS):</h3> 30 mellkaskompresszió, 2 befúvás (amíg nincs defibrillátor vagy szaksegítség)</li>
+          <li><h3>Erős vérzés:</h3> nyomókötés, közvetlen nyomás a sebre, végtag felemelése, ha lehetséges.</li>
+          <li><h3>Törés:</h3> ne mozgasd feleslegesen; rögzítsd, ha tudod (improvizált sínnel).</li>
+          <li><h3>Égés:</h3> hideg víz alá tartani legalább 10 percig; ne kenj rá zsíros vagy házi szereket.</li>
+        </ul>
+      </section>
+
+
+
+      <section id="otodik" class="kockasd">
+        <h2>Hasznos számok</h2>
+        <p><h3>112</h3>segélyhívó. <br><h3>104</h3>Mentők.<br><h3>105</h3>Tűzoltók.<br><h3>107</h3>Rendőr.</p>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>A weblap csoportmunkának készűlt! Mivel, a cél a github gyakorlása, így a weblap nem annyira minőségi.</p>
+    </footer>
+  </div>
+  <script>
+
+  </script>
+</body>
+</html>
